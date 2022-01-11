@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F14886CD278D69EA005A1EEF /* FrameworkDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14886CC278D69EA005A1EEF /* FrameworkDetailViewModel.swift */; };
 		F167A500277D55E4008EF53A /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167A4FF277D55E4008EF53A /* SafariView.swift */; };
 		F167A502277D5DE3008EF53A /* FrameworkIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167A501277D5DE3008EF53A /* FrameworkIconView.swift */; };
 		F167A504277D5EE4008EF53A /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167A503277D5EE4008EF53A /* XDismissButton.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F14886CC278D69EA005A1EEF /* FrameworkDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailViewModel.swift; sourceTree = "<group>"; };
 		F167A4FF277D55E4008EF53A /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		F167A501277D5DE3008EF53A /* FrameworkIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkIconView.swift; sourceTree = "<group>"; };
 		F167A503277D5EE4008EF53A /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
@@ -58,8 +60,8 @@
 		F167A506277D60FA008EF53A /* FrameworkGridView */ = {
 			isa = PBXGroup;
 			children = (
-				F196C6BA277C4CCC00D6BB8E /* FrameworkGridView.swift */,
 				F196C6C0277CA65000D6BB8E /* FrameworkGridViewModel.swift */,
+				F196C6BA277C4CCC00D6BB8E /* FrameworkGridView.swift */,
 			);
 			path = FrameworkGridView;
 			sourceTree = "<group>";
@@ -75,6 +77,7 @@
 		F167A508277D6135008EF53A /* FrameworkDetailView */ = {
 			isa = PBXGroup;
 			children = (
+				F14886CC278D69EA005A1EEF /* FrameworkDetailViewModel.swift */,
 				F196C6BC277C920400D6BB8E /* FrameworkDetailView.swift */,
 			);
 			path = FrameworkDetailView;
@@ -214,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F14886CD278D69EA005A1EEF /* FrameworkDetailViewModel.swift in Sources */,
 				F196C6BD277C920400D6BB8E /* FrameworkDetailView.swift in Sources */,
 				F196C6BB277C4CCC00D6BB8E /* FrameworkGridView.swift in Sources */,
 				F167A504277D5EE4008EF53A /* XDismissButton.swift in Sources */,
